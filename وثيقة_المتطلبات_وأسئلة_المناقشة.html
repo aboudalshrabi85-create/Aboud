@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>وثيقة المتطلبات وأسئلة المناقشة - مدير الملفات المتقدم</title>
+<style>
+body{font-family:Arial,sans-serif;line-height:1.9;max-width:1000px;margin:30px auto;padding:20px;background:#f5f5f5;color:#222}
+section{background:#fff;padding:24px;margin-bottom:18px;border-radius:10px}
+h1,h2{color:#064663}
+code{background:#eee;padding:2px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+<section>
+<h1>مدير الملفات المتقدم — Advanced File Explorer</h1>
+<p>وثيقة المتطلبات البرمجية وبنك أسئلة المناقشة لمشروع C# WPF على .NET 6 وفق MVVM.</p>
+</section>
+<section>
+<h2>المتطلبات الوظيفية</h2>
+<ul>
+<li>استعراض الأقراص ووحدات التخزين.</li>
+<li>استعراض الملفات والمجلدات.</li>
+<li>التبويبات المتعددة وسجل التنقل.</li>
+<li>البحث والفلترة اللحظية.</li>
+<li>المعاينة الفورية للصور والملفات النصية.</li>
+<li>إنشاء وإعادة تسمية وحذف ونسخ وقص ولصق العناصر.</li>
+<li>نافذة خصائص للملفات والمجلدات.</li>
+<li>الوصول السريع للمجلدات الشائعة.</li>
+</ul>
+</section>
+<section>
+<h2>المعمارية</h2>
+<p>يستخدم المشروع نمط MVVM لفصل Model وView وViewModel، مع FileService للتعامل مع نظام الملفات.</p>
+</section>
+<section>
+<h2>أسئلة المناقشة</h2>
+<h3>ما هو MVVM؟</h3><p>هو نمط معماري يفصل البيانات عن الواجهة ومنطق التطبيق.</p>
+<h3>ما فائدة INotifyPropertyChanged؟</h3><p>إشعار الواجهة عند تغير الخصائص حتى تتحدث تلقائياً.</p>
+<h3>لماذا FileService؟</h3><p>لفصل عمليات نظام الملفات عن ViewModel وتسهيل الصيانة.</p>
+<h3>كيف تتم معالجة الصلاحيات؟</h3><p>باستخدام try-catch والتعامل مع UnauthorizedAccessException.</p>
+</section>
+</body>
+</html>
