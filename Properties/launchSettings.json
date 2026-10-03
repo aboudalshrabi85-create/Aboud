@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AdvancedFileExplorer": {
+      "commandName": "Project",
+      "workingDirectory": "."
+    }
+  }
+}
